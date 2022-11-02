@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">VegetableGarden</string>
+    <string name="title">家庭菜園アプリ</string>
+    <string name="start">始める</string>
+    <string name="choose">育てたい植物を選んでください（植え付け期）</string>
+    <string name="mini_tomato">ミニトマト(気温25~30℃)</string>
+    <string name="back">戻る</string>
+    <string name="prepare">準備リスト(佐賀大学HPリンク)</string>
+    <string name="skip">スキップ</string>
+    <string name="planter">プランター:大型サイズ 45L。ミニトマトは根がしっかり張るよう、土がたっぷり入るサイズを選びましょう。</string>
+    <string name="planter_url">https://www.saga-u.ac.jp/</string>
+    <string name="soil">野菜用の培養土:新しい土を使ってください。市販の「野菜用培養土」を使うと手間がかからず、プランターに入れるだけなので簡単です。</string>
+    <string name="soil_url">https://www.saga-u.ac.jp/</string>
+    <string name="fertilizer">化成肥料:生育中の肥料として使用します。</string>
+    <string name="fertilizer_url">https://www.saga-u.ac.jp/</string>
+    <string name="stone_bag">底石用の軽石+ネット袋:水はけをよくするためにプランターの底に入れます。その際、ネット袋があると片付けの際楽なので、ネットに入れて底に浅めに敷きます。</string>
+    <string name="stone_bag_url">https://www.saga-u.ac.jp/</string>
+    <string name="prop">支柱:太さは16～20mmで長さは150cm～180cm位のもの</string>
+    <string name="prop_url">https://www.saga-u.ac.jp/</string>
+    <string name="mini_tomato_1">1,植える</string>
+    <string name="mini_tomato_2">2,草丈30~40cm</string>
+    <string name="mini_tomato_3">3,植え付け１週間後</string>
+    <string name="mini_tomato_4">4,最初の実が膨らみ始めた</string>
+    <string name="mini_tomato_5">5,収穫</string>
+    <string name="mini_tomato_other">上記以外</string>
+    <string name="planting_time">日光がよく当たる乾いた環境を好むため、気温が25～30℃ぐらいの時に。プランターはトマトが根をしっかり張れるよう、土がたっぷり入る深めの45リットルに２株（１株につき20リットルが目安）を植え付けましょう。</string>
+    <string name="pole_stand">草丈が30～40cmくらいになったら倒れないように支柱を立てます。
+苗の両端、また根元から10㎝ぐらいの位置に150～180cmほどの支柱を差し、茎と支柱とを紐で８の字を描くようにやさしく結びつけます。その後、イラストのように補強（合掌造り）をしておきましょう。</string>
+    <string name="sprout_picking">植え付け後１週間を目安に葉や茎の付け根から出る芽（わき芽）を取ります。
+これを摘み取ると実が大きく育つほか、日当たりや風通しが良くなり、病害虫の発生も予防できます。その後は、わき芽を見つけたら取るようにしましょう。</string>
+    <string name="topdressing">最初の実が膨らみ始めたら株元に追肥します。
+実に栄養を使うため追肥は重要です。特に鉄分が多い肥料はリコピンをはじめ、さまざまな栄養素の含量が増えるのでおすすめです。収穫まで月１回程度与えましょう。</string>
+    <string name="harvest">花が咲いてから40～50日ほど経つと実が熟して、緑色から真っ赤に変化します。茎元から色が良いものを順に収穫します。収穫が遅れると実が裂けてしまうので、時期を逃さないように注意！</string>
+    <string name="watering">乾燥した環境を好みます。水やりは朝、土がかわいていると感じたら与えましょう。（毎日やる必要はありません。）</string>
+    <string name="next">次へ</string>
+    <string name="finish">今日は終わりです</string>
+    <string name="title_back">タイトルに戻る</string>
+
+</resources>

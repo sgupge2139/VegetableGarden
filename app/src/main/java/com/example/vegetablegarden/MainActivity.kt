@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
         val btn = findViewById<Button>(R.id.start)
         btn.setOnClickListener {
             //インデントを作成
-            val i = Intent(this, MainActivity2::class.java)
+            //val i = Intent(this, MainActivity2::class.java)
+            val i = Intent(this, SimpleDatabaseHelper::class.java)
             //アクティビティを起動
             startActivity(i)
         }

@@ -1,22 +1,15 @@
 package com.example.vegetablegarden
 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+//追加
+import android.content.ContentValues
+import android.database.sqlite.SQLiteDatabase
+import android.widget.Button
+import android.widget.EditText
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
-
-/*
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 
 class SQLiteActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sqlite)
-    }
-}*/
-//package to.msn.wings.databasebasic
-
-class SQLiteActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sqlite)
@@ -25,10 +18,10 @@ class SQLiteActivity : AppCompatActivity(){
         val helper = SimpleDatabaseHelper(this)
         //データベースを取得
         helper.writableDatabase.use { db ->
+            //db.insertWithOnConflict("plant", null, cv, SQLiteDatabase.CONFLICT_REPLACE)
             Toast.makeText(this, "接続しました",
                 Toast.LENGTH_SHORT).show()
-                //本来であれば，ここにデータベース処理を記述
+            //以下にデータベース処理を記述
         }
     }
 }
-

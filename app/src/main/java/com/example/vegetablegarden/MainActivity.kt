@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         btn.setOnClickListener {
             //インデントを作成
             //val i = Intent(this, MainActivity2::class.java)
-            val i = Intent(this, SimpleDatabaseHelper::class.java)
+            val i = Intent(this, SQLiteActivity::class.java)
             //アクティビティを起動
             startActivity(i)
         }
